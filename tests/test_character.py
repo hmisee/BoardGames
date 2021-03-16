@@ -1,6 +1,6 @@
-from .src import character
-from .src import size
-from .src.equipment import Equipment
+from ..src import character
+from ..src import size
+from ..src.equipment import Equipment
 
 class TestCharacter:
     fighter = character.Character("Herkules")
