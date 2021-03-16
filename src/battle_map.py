@@ -15,4 +15,4 @@ class BattleMap:
         return cells
     
     def add(self, entity, x, y):
-        self.rows[y-1][x-1].append(entity)
+        self.rows[y][x].append(entity)
